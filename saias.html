@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Confira a coleção de saias femininas do Closet da Luh. Modelos delicados e modernos para todos os estilos.">
+
+    <title>Saias | Closet da Luh</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pagina-categoria">
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <div class="container cabecalho-conteudo">
+
+            <a href="index.html" class="logo" aria-label="Closet da Luh - Início">
+                <img src="logo-closet.png" alt="Logo Closet da Luh">
+            </a>
+
+            <button
+                type="button"
+                class="menu-button"
+                id="menu-button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="menu">
+                ☰
+            </button>
+
+            <nav class="menu" id="menu">
+                <a href="index.html">Início</a>
+                <a href="camisas.html">Camisas</a>
+                <a href="vestidos.html">Vestidos</a>
+                <a href="saias.html">Saias</a>
+                <a href="shorts.html">Shorts</a>
+                <a href="acessorios.html">Acessórios</a>
+            </nav>
+
+            <a href="sacola.html" class="botao-sacola">
+                🛍️ 
+                <span id="contador-sacola">0</span>
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- BANNER DA CATEGORIA -->
+        <section class="inicio">
+
+            <div class="inicio-conteudo">
+
+                <div class="inicio-texto">
+
+                    <span class="subtitulo">CLOSET DA LUH</span>
+
+                    <h1>Saias que valorizam seu estilo</h1>
+
+                    <p>
+                        Modelos delicados e modernos para deixar
+                        suas produções ainda mais especiais.
+                    </p>
+
+                    <a href="#colecao" class="botao-principal">
+                        Ver saias
+                    </a>
+
+                </div>
+
+                <div class="inicio-imagem">
+
+                    <img
+                        src="vs.jpg"
+                        alt="Saia feminina">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- COLEÇÃO DE SAIAS -->
+        <section class="produtos-secao container" id="colecao">
+
+            <div class="titulo-secao">
+
+                <span>NOSSA COLEÇÃO</span>
+
+                <h2>Saias femininas</h2>
+
+                <p>Encontre seu modelo favorito.</p>
+
+            </div>
+
+
+            <div class="produtos-grid">
+
+                <!-- PRODUTO 1 -->
+                <article class="produto">
+
+                    <img
+                        src="saia1.jpg"
+                        alt="Saia elegante"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Saia Elegante</h3>
+
+                        <p class="preco">R$ 99,90</p>
+
+                        <button type="button" class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 2 -->
+                <article class="produto">
+
+                    <img
+                        src="saia2.jpg"
+                        alt="Saia delicada"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Saia Delicada</h3>
+
+                        <p class="preco">R$ 49,90</p>
+
+                        <button type="button" class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 3 -->
+                <article class="produto">
+
+                    <img
+                        src="saia3.jpg"
+                        alt="Saia moderna"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Saia Moderna</h3>
+
+                        <p class="preco">R$ 69,90</p>
+
+                        <button type="button" class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 4 -->
+                <article class="produto">
+
+                    <img
+                        src="saia4.jpg"
+                        alt="Saia casual"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Saia Casual</h3>
+
+                        <p class="preco">R$ 39,90</p>
+
+                        <button type="button" class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <a href="index.html" class="logo">
+            Closet <span>da Luh</span>
+        </a>
+
+        <p>Moda, estilo e personalidade.</p>
+
+        <p>Proprietária: Lana Beatriz</p>
+
+        <p class="copyright">
+            © <span id="ano"></span> Closet da Luh.
+            Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

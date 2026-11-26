@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Confira sua sacola e finalize seu pedido na Closet da Luh.">
+
+    <title>Minha Sacola | Closet da Luh</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <div class="container cabecalho-conteudo">
+
+            <a href="index.html" class="logo" aria-label="Closet da Luh - Início">
+                <img src="logo-closet.png" alt="Logo Closet da Luh">
+            </a>
+
+            <a href="index.html" class="botao-sacola">
+                ← Voltar à loja
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTEÚDO DA SACOLA -->
+    <main class="pagina-sacola container">
+
+        <div class="titulo-secao">
+
+            <span>SUA SELEÇÃO ESPECIAL</span>
+
+            <h2>Minha sacola</h2>
+
+            <p>
+                Confira suas escolhas e escolha como deseja receber seu pedido.
+            </p>
+
+        </div>
+
+
+        <!-- PRODUTOS E RESUMO -->
+        <section class="conteudo-sacola" aria-label="Produtos e resumo do pedido">
+
+            <!-- LISTA DE PRODUTOS -->
+            <div id="lista-sacola" aria-live="polite">
+
+                <!-- Produtos inseridos pelo JavaScript -->
+
+            </div>
+
+
+            <!-- RESUMO E FINALIZAÇÃO -->
+            <aside class="resumo-sacola">
+
+                <h3>Resumo do pedido</h3>
+
+                <div class="linha-resumo">
+
+                    <span>Quantidade de itens:</span>
+
+                    <strong id="quantidade-sacola">0</strong>
+
+                </div>
+
+
+                <div class="linha-resumo total">
+
+                    <span>Total dos produtos:</span>
+
+                    <strong id="total-sacola">R$ 0,00</strong>
+
+                </div>
+
+
+                <!-- FORMAS DE RECEBIMENTO -->
+                <div class="opcoes-pedido">
+
+                    <h3>Como deseja receber?</h3>
+
+                    <label class="opcao-pedido">
+
+                        <input
+                            type="radio"
+                            name="recebimento"
+                            value="motoboy">
+
+                        <span>
+                            <strong>Entrega por motoboy</strong>
+
+                            <small>
+                                O cliente paga o valor do motoboy.
+                            </small>
+                        </span>
+
+                    </label>
+
+
+                    <label class="opcao-pedido">
+
+                        <input
+                            type="radio"
+                            name="recebimento"
+                            value="retirada">
+
+                        <span>
+                            <strong>Retirar na loja</strong>
+
+                            <small>
+                                Combine o endereço e horário pelo WhatsApp.
+                            </small>
+                        </span>
+
+                    </label>
+
+
+                    <!-- ENDEREÇO DE ENTREGA -->
+                    <div id="campo-endereco" hidden>
+
+                        <label for="endereco-entrega">
+                            Endereço para entrega
+                        </label>
+
+                        <textarea
+                            id="endereco-entrega"
+                            placeholder="Rua, número, bairro, cidade, CEP e ponto de referência"
+                            rows="3">
+                        </textarea>
+
+                    </div>
+
+
+                    <!-- FORMAS DE PAGAMENTO -->
+                    <h3>Como deseja pagar?</h3>
+
+
+                    <label class="opcao-pedido">
+
+                        <input
+                            type="radio"
+                            name="pagamento"
+                            value="PIX">
+
+                        <span>
+                            <strong>PIX</strong>
+                        </span>
+
+                    </label>
+
+
+                    <label class="opcao-pedido">
+
+                        <input
+                            type="radio"
+                            name="pagamento"
+                            value="Dinheiro">
+
+                        <span>
+                            <strong>Dinheiro</strong>
+                        </span>
+
+                    </label>
+
+
+                    <label class="opcao-pedido">
+
+                        <input
+                            type="radio"
+                            name="pagamento"
+                            value="Cartão de débito">
+
+                        <span>
+                            <strong>Cartão de débito</strong>
+                        </span>
+
+                    </label>
+
+
+                    <label class="opcao-pedido">
+
+                        <input
+                            type="radio"
+                            name="pagamento"
+                            value="Cartão de crédito">
+
+                        <span>
+                            <strong>Cartão de crédito</strong>
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- FINALIZAR PEDIDO -->
+                <button
+                    type="button"
+                    id="finalizar-compra"
+                    class="botao-finalizar">
+
+                    Finalizar pedido pelo WhatsApp
+
+                </button>
+
+
+                <a href="index.html" class="continuar-comprando">
+                    ← Continuar comprando
+                </a>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <a href="index.html" class="logo">
+            Closet <span>da Luh</span>
+        </a>
+
+        <p>Moda, estilo e personalidade.</p>
+
+        <p>
+            © <span id="ano"></span> Closet da Luh.
+            Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT DA SACOLA -->
+    <script src="sacola.js"></script>
+
+</body>
+
+</html>

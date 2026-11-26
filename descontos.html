@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Confira os descontos e ofertas especiais do Closet da Luh.">
+
+    <title>Descontos Imperdíveis | Closet da Luh</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <div class="container cabecalho-conteudo">
+
+            <a href="index.html" class="logo" aria-label="Closet da Luh - Início">
+                <img src="logo-closet.png" alt="Logo Closet da Luh">
+            </a>
+
+            <button
+                class="menu-button"
+                id="menu-button"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="menu" id="menu">
+
+                <a href="index.html#inicio">Início</a>
+
+                <a href="index.html#lancamentos">Lançamentos</a>
+
+                <details class="menu-categorias">
+
+                    <summary>
+                        Categorias
+                        <span class="seta-menu">⌄</span>
+                    </summary>
+
+                    <div class="submenu-categorias">
+
+                        <a href="camisas.html">Camisas</a>
+
+                        <a href="vestidos.html">Vestidos</a>
+
+                        <a href="saias.html">Saias</a>
+
+                        <a href="shorts.html">Shorts</a>
+
+                        <a href="acessorios.html">Acessórios</a>
+
+                        <a href="descontos.html">Descontos Imperdíveis</a>
+
+                    </div>
+
+                </details>
+
+                <a href="index.html#sobre">Sobre a loja</a>
+
+                <a href="index.html#contato">Contato</a>
+
+            </nav>
+
+            <a href="sacola.html" class="botao-sacola">
+                🛍️ 
+                <span id="contador-sacola">0</span>
+                
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+
+        <!-- BANNER DE DESCONTOS CORRIGIDO -->
+        <section class="inicio">
+
+            <div class="inicio-conteudo">
+
+                <!-- TEXTO -->
+                <div class="inicio-texto">
+
+                    <span class="subtitulo">
+                        OFERTAS ESPECIAIS
+                    </span>
+
+                    <h1>
+                        Descontos Imperdíveis
+                    </h1>
+
+                    <p>
+                        Suas peças favoritas com preços especiais.
+                        Aproveite nossas promoções!
+                    </p>
+
+                    <a href="#ofertas" class="botao-principal">
+                        Ver ofertas
+                    </a>
+
+                </div>
+
+                <!-- IMAGEM -->
+                <div class="inicio-imagem">
+
+                    <img
+                        src="promo.jpg"
+                        alt="Promoções do Closet da Luh">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- PRODUTOS EM PROMOÇÃO -->
+        <section class="produtos-secao container" id="ofertas">
+
+            <div class="titulo-secao">
+
+                <span>ESCOLHA SEUS FAVORITOS</span>
+
+                <h2>Todos os descontos</h2>
+
+                <p>
+                    Confira nossas peças em promoção!
+                </p>
+
+            </div>
+
+
+            <div class="produtos-grid">
+
+
+                <!-- PROMOÇÃO 1 -->
+                <article class="produto produto-promocao">
+
+                    <span class="etiqueta">40% OFF</span>
+
+                    <img
+                        src="shortt.jpg"
+                        alt="Short jeans">
+
+                    <div class="produto-info">
+
+                        <h3>Short Jeans</h3>
+
+                        <p class="preco-antigo">
+                            De R$ 49,90
+                        </p>
+
+                        <p class="preco">
+                            R$ 29,90
+                        </p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROMOÇÃO 2 -->
+                <article class="produto produto-promocao">
+
+                    <span class="etiqueta">25% OFF</span>
+
+                    <img
+                        src="vestidopromo.jpg"
+                        alt="Vestido feminino">
+
+                    <div class="produto-info">
+
+                        <h3>Vestido Charmoso</h3>
+
+                        <p class="preco-antigo">
+                            De R$ 159,90
+                        </p>
+
+                        <p class="preco">
+                            R$ 119,90
+                        </p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROMOÇÃO 3 -->
+                <article class="produto produto-promocao">
+
+                    <span class="etiqueta">20% OFF</span>
+
+                    <img
+                        src="saiaaa.jpg"
+                        alt="Saia feminina">
+
+                    <div class="produto-info">
+
+                        <h3>Saia Delicada</h3>
+
+                        <p class="preco-antigo">
+                            De R$ 99,90
+                        </p>
+
+                        <p class="preco">
+                            R$ 79,90
+                        </p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROMOÇÃO 4 -->
+                <article class="produto produto-promocao">
+
+                    <span class="etiqueta">15% OFF</span>
+
+                    <img
+                        src="camisabranca.jpg"
+                        alt="Camisa feminina">
+
+                    <div class="produto-info">
+
+                        <h3>Camisa Elegante</h3>
+
+                        <p class="preco-antigo">
+                            De R$ 129,90
+                        </p>
+
+                        <p class="preco">
+                            R$ 109,90
+                        </p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <a href="index.html" class="logo">
+            Closet <span>da Luh</span>
+        </a>
+
+        <p>
+            Moda, estilo e personalidade.
+        </p>
+
+        <p>
+            Proprietária: Lana Beatriz
+        </p>
+
+        <p class="copyright">
+            © <span id="ano"></span>
+            Closet da Luh. Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Confira a coleção de vestidos femininos da Closet da Luh. Modelos delicados, modernos e cheios de personalidade.">
+
+    <title>Vestidos | Closet da Luh</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pagina-categoria">
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <div class="container cabecalho-conteudo">
+
+            <a href="index.html" class="logo" aria-label="Closet da Luh - Início">
+                <img src="logo-closet.png" alt="Logo Closet da Luh">
+            </a>
+
+            <button
+                type="button"
+                class="menu-button"
+                id="menu-button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="menu">
+                ☰
+            </button>
+
+            <nav class="menu" id="menu">
+
+                <a href="index.html">Início</a>
+                <a href="camisas.html">Camisas</a>
+                <a href="vestidos.html">Vestidos</a>
+                <a href="saias.html">Saias</a>
+                <a href="shorts.html">Shorts</a>
+                <a href="acessorios.html">Acessórios</a>
+
+            </nav>
+
+            <a href="sacola.html" class="botao-sacola">
+                🛍️ 
+                <span id="contador-sacola">0</span>
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- APRESENTAÇÃO DA CATEGORIA -->
+        <section class="inicio">
+
+            <div class="inicio-conteudo">
+
+                <div class="inicio-texto">
+
+                    <span class="subtitulo">
+                        CLOSET DA LUH
+                    </span>
+
+                    <h1>
+                        Vestidos para todos os momentos
+                    </h1>
+
+                    <p>
+                        Encontre modelos especiais para compor looks
+                        delicados, modernos e cheios de personalidade.
+                    </p>
+
+                    <a href="#colecao" class="botao-principal">
+                        Ver vestidos
+                    </a>
+
+                </div>
+
+                <div class="inicio-imagem">
+
+                    <img
+                        src="vv.jpg"
+                        alt="Vestido feminino em destaque">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRODUTOS -->
+        <section class="produtos-secao container" id="colecao">
+
+            <div class="titulo-secao">
+
+                <span>NOSSA COLEÇÃO</span>
+
+                <h2>Vestidos femininos</h2>
+
+                <p>
+                    Escolha seu modelo favorito!
+                </p>
+
+            </div>
+
+
+            <div class="produtos-grid">
+
+
+                <!-- PRODUTO 1 -->
+                <article class="produto">
+
+                    <img
+                        src="vestido1.jpg"
+                        alt="Vestido feminino elegante"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Vestido Elegante</h3>
+
+                        <p class="preco">R$ 119,90</p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 2 -->
+                <article class="produto">
+
+                    <img
+                        src="vestido2.jpg"
+                        alt="Vestido feminino delicado"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Vestido Delicado</h3>
+
+                        <p class="preco">R$ 149,90</p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 3 -->
+                <article class="produto">
+
+                    <img
+                        src="vestido3.jpg"
+                        alt="Vestido feminino moderno"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Vestido Moderno</h3>
+
+                        <p class="preco">R$ 139,90</p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 4 -->
+                <article class="produto">
+
+                    <img
+                        src="vestido4.jpg"
+                        alt="Vestido feminino casual"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Vestido Casual</h3>
+
+                        <p class="preco">R$ 99,90</p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <a href="index.html" class="logo">
+            Closet <span>da Luh</span>
+        </a>
+
+        <p>Moda, estilo e personalidade.</p>
+
+        <p>Proprietária: Lana Beatriz</p>
+
+        <p class="copyright">
+            © <span id="ano"></span> Closet da Luh.
+            Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

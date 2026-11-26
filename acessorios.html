@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Confira os acessórios femininos do Closet da Luh. Colares, brincos, pulseiras e bolsas para completar seu estilo.">
+
+    <title>Acessórios | Closet da Luh</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pagina-categoria">
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <div class="container cabecalho-conteudo">
+
+            <a href="index.html" class="logo" aria-label="Closet da Luh - Início">
+                <img src="logo-closet.png" alt="Logo Closet da Luh">
+            </a>
+
+            <button
+                type="button"
+                class="menu-button"
+                id="menu-button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="menu">
+                ☰
+            </button>
+
+            <nav class="menu" id="menu">
+                <a href="index.html">Início</a>
+                <a href="camisas.html">Camisas</a>
+                <a href="vestidos.html">Vestidos</a>
+                <a href="saias.html">Saias</a>
+                <a href="shorts.html">Shorts</a>
+                <a href="acessorios.html">Acessórios</a>
+            </nav>
+
+            <a href="sacola.html" class="botao-sacola">
+                🛍️ 
+                <span id="contador-sacola">0</span>
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- BANNER DA CATEGORIA -->
+        <section class="inicio">
+
+            <div class="inicio-conteudo">
+
+                <div class="inicio-texto">
+
+                    <span class="subtitulo">CLOSET DA LUH</span>
+
+                    <h1>Detalhes que fazem a diferença</h1>
+
+                    <p>
+                        Complete seus looks com acessórios
+                        especiais e cheios de personalidade.
+                    </p>
+
+                    <a href="#colecao" class="botao-principal">
+                        Ver acessórios
+                    </a>
+
+                </div>
+
+                <div class="inicio-imagem">
+
+                    <img
+                        src="va.jpg"
+                        alt="Acessórios femininos">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- COLEÇÃO DE ACESSÓRIOS -->
+        <section class="produtos-secao container" id="colecao">
+
+            <div class="titulo-secao">
+
+                <span>NOSSA COLEÇÃO</span>
+
+                <h2>Acessórios femininos</h2>
+
+                <p>Escolha os detalhes que combinam com você.</p>
+
+            </div>
+
+
+            <div class="produtos-grid">
+
+                <!-- PRODUTO 1 -->
+                <article class="produto">
+
+                    <img
+                        src="colar.jpg"
+                        alt="Colar feminino"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Colar Delicado</h3>
+
+                        <p class="preco">R$ 34,90</p>
+
+                        <button type="button" class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 2 -->
+                <article class="produto">
+
+                    <img
+                        src="brinco.jpg"
+                        alt="Brincos femininos"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Brinco Elegante</h3>
+
+                        <p class="preco">R$ 29,90</p>
+
+                        <button type="button" class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 3 -->
+                <article class="produto">
+
+                    <img
+                        src="pulseira.jpg"
+                        alt="Pulseira feminina"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Pulseira Charmosa</h3>
+
+                        <p class="preco">R$ 49,90</p>
+
+                        <button type="button" class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 4 -->
+                <article class="produto">
+
+                    <img
+                        src="bolsa.jpg"
+                        alt="Bolsa feminina"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Bolsa Clássica</h3>
+
+                        <p class="preco">R$ 79,90</p>
+
+                        <button type="button" class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <a href="index.html" class="logo">
+            Closet <span>da Luh</span>
+        </a>
+
+        <p>Moda, estilo e personalidade.</p>
+
+        <p>Proprietária: Lana Beatriz</p>
+
+        <p class="copyright">
+            © <span id="ano"></span> Closet da Luh.
+            Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

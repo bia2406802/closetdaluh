@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Confira a coleção de shorts femininos do Closet da Luh. Peças versáteis e modernas para diferentes estilos.">
+
+    <title>Shorts | Closet da Luh</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pagina-categoria pagina-shorts">
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <div class="container cabecalho-conteudo">
+
+            <a href="index.html" class="logo" aria-label="Closet da Luh - Início">
+                <img src="logo-closet.png" alt="Logo Closet da Luh">
+            </a>
+
+            <button
+                type="button"
+                class="menu-button"
+                id="menu-button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="menu">
+                ☰
+            </button>
+
+            <nav class="menu" id="menu">
+                <a href="index.html">Início</a>
+                <a href="camisas.html">Camisas</a>
+                <a href="vestidos.html">Vestidos</a>
+                <a href="saias.html">Saias</a>
+                <a href="shorts.html">Shorts</a>
+                <a href="acessorios.html">Acessórios</a>
+            </nav>
+
+            <a href="sacola.html" class="botao-sacola">
+                🛍️ 
+                <span id="contador-sacola">0</span>
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- BANNER DE SHORTS -->
+        <section class="inicio">
+
+            <div class="inicio-conteudo">
+
+                <div class="inicio-texto">
+
+                    <span class="subtitulo">CLOSET DA LUH</span>
+
+                    <h1>Shorts para looks incríveis</h1>
+
+                    <p>
+                        Peças versáteis e modernas para deixar
+                        suas combinações ainda mais especiais.
+                    </p>
+
+                    <a href="#colecao" class="botao-principal">
+                        Ver shorts
+                    </a>
+
+                </div>
+
+                <div class="inicio-imagem">
+
+                    <img
+                        src="vss.jpg"
+                        alt="Shorts femininos">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- COLEÇÃO DE SHORTS -->
+        <section class="produtos-secao container" id="colecao">
+
+            <div class="titulo-secao">
+
+                <span>NOSSA COLEÇÃO</span>
+
+                <h2>Shorts</h2>
+
+                <p>Escolha suas peças favoritas!</p>
+
+            </div>
+
+
+            <div class="produtos-grid">
+
+                <!-- PRODUTO 1 -->
+                <article class="produto">
+
+                    <img
+                        src="short1.jpg"
+                        alt="Short feminino casual"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Short Casual</h3>
+
+                        <p class="preco">R$ 59,90</p>
+
+                        <button type="button" class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 2 -->
+                <article class="produto">
+
+                    <img
+                        src="short2.jpg"
+                        alt="Look feminino moderno"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Short Moderno</h3>
+
+                        <p class="preco">R$ 39,90</p>
+
+                        <button type="button" class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 3 -->
+                <article class="produto">
+
+                    <img
+                        src="short3.jpg"
+                        alt="Peça feminina de moda"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Short Jeans</h3>
+
+                        <p class="preco">R$ 69,90</p>
+
+                        <button type="button" class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 4 -->
+                <article class="produto">
+
+                    <img
+                        src="short4.jpg"
+                        alt="Look feminino delicado"
+                        loading="lazy">
+
+                    <div class="produto-info">
+
+                        <h3>Short Delicado</h3>
+
+                        <p class="preco">R$ 39,90</p>
+
+                        <button type="button" class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <a href="index.html" class="logo">
+            Closet <span>da Luh</span>
+        </a>
+
+        <p>Moda, estilo e personalidade.</p>
+
+        <p>Proprietária: Lana Beatriz</p>
+
+        <p class="copyright">
+            © <span id="ano"></span> Closet da Luh.
+            Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

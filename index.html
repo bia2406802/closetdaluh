@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Closet da Luh: moda feminina, estilo e personalidade. Conheça nossas coleções e novidades.">
+
+    <title>Closet da Luh | Moda Feminina</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <div class="container cabecalho-conteudo">
+
+            <a href="index.html" class="logo" aria-label="Closet da Luh - Início">
+                <img src="logo-closet.png" alt="Logo Closet da Luh">
+            </a>
+
+            <button
+                class="menu-button"
+                id="menu-button"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="menu" id="menu">
+
+                <a href="index.html">Início</a>
+
+                <a href="#lancamentos">Lançamentos</a>
+
+                <details class="menu-categorias">
+
+                    <summary>
+                        Categorias
+                        <span class="seta-menu">⌄</span>
+                    </summary>
+
+                    <div class="submenu-categorias">
+
+                        <a href="camisas.html">Camisas</a>
+
+                        <a href="vestidos.html">Vestidos</a>
+
+                        <a href="saias.html">Saias</a>
+
+                        <a href="shorts.html">Shorts</a>
+
+                        <a href="acessorios.html">Acessórios</a>
+
+                    </div>
+
+                </details>
+
+                <a href="#descontos-imperdiveis">Descontos</a>
+
+                <a href="#sobre">Sobre a loja</a>
+
+                <a href="#contato">Contato</a>
+
+            </nav>
+
+            <a href="sacola.html" class="botao-sacola">
+            🛍️ 
+                <span id="contador-sacola">0</span>
+                
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+
+        <!-- BANNER PRINCIPAL -->
+        <section class="banner-principal" id="inicio">
+            <img
+                src="banner-closet.png"
+                alt="Banner principal do Closet da Luh">
+        </section>
+
+
+        <!-- LANÇAMENTOS -->
+        <section
+            class="produtos-secao container"
+            id="lancamentos">
+
+            <div class="titulo-secao">
+
+                <span>NOVIDADES</span>
+
+                <h2>Últimos lançamentos</h2>
+
+                <p>
+                    Confira nossas novidades e escolha suas peças favoritas!
+                </p>
+
+            </div>
+
+
+            <div class="produtos-grid">
+
+
+                <!-- PRODUTO 1 -->
+                <article class="produto">
+
+                    <img
+                        src="camisaelegante.jpg"
+                        alt="Camisa feminina elegante">
+
+                    <div class="produto-info">
+
+                        <h3>Camisa Elegante</h3>
+
+                        <p class="preco">R$ 129,90</p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 2 -->
+                <article class="produto">
+
+                    <img
+                        src="vestidoo.jpg"
+                        alt="Vestido feminino">
+
+                    <div class="produto-info">
+
+                        <h3>Vestido Charmoso</h3>
+
+                        <p class="preco">R$ 159,90</p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 3 -->
+                <article class="produto">
+
+                    <img
+                        src="saia1.jpg"
+                        alt="Saia feminina">
+
+                    <div class="produto-info">
+
+                        <h3>Saia Delicada</h3>
+
+                        <p class="preco">R$ 99,90</p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 4 -->
+                <article class="produto">
+
+                    <img
+                        src="short1.jpg"
+                        alt="Short feminino">
+
+                    <div class="produto-info">
+
+                        <h3>Short Moderno</h3>
+
+                        <p class="preco">R$ 59,90</p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- DESCONTOS IMPERDÍVEIS -->
+        <section
+            class="produtos-secao container"
+            id="descontos-imperdiveis">
+
+            <div class="titulo-secao">
+
+                <span>OFERTAS ESPECIAIS</span>
+
+                <h2>Descontos imperdíveis</h2>
+
+                <p>
+                    Aproveite nossas promoções e garanta suas peças favoritas!
+                </p>
+
+            </div>
+
+
+            <div class="produtos-grid">
+
+
+                <!-- PROMOÇÃO 1 -->
+                <article class="produto produto-promocao">
+
+                    <span class="etiqueta">40% OFF</span>
+
+                    <img
+                        src="shortt.jpg"
+                        alt="Short jeans feminino">
+
+                    <div class="produto-info">
+
+                        <h3>Short Jeans</h3>
+
+                        <p class="preco-antigo">R$ 49,90</p>
+
+                        <p class="preco">R$ 29,90</p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROMOÇÃO 2 -->
+                <article class="produto produto-promocao">
+
+                    <span class="etiqueta">25% OFF</span>
+
+                    <img
+                        src="vestidopromo.jpg"
+                        alt="Vestido feminino em promoção">
+
+                    <div class="produto-info">
+
+                        <h3>Vestido Charmoso</h3>
+
+                        <p class="preco-antigo">R$ 159,90</p>
+
+                        <p class="preco">R$ 119,90</p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROMOÇÃO 3 -->
+                <article class="produto produto-promocao">
+
+                    <span class="etiqueta">20% OFF</span>
+
+                    <img
+                        src="saiaaa.jpg"
+                        alt="Saia feminina em promoção">
+
+                    <div class="produto-info">
+
+                        <h3>Saia Delicada</h3>
+
+                        <p class="preco-antigo">R$ 99,90</p>
+
+                        <p class="preco">R$ 79,90</p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROMOÇÃO 4 -->
+                <article class="produto produto-promocao">
+
+                    <span class="etiqueta">15% OFF</span>
+
+                    <img
+                        src="camisabranca.jpg"
+                        alt="Camisa feminina em promoção">
+
+                    <div class="produto-info">
+
+                        <h3>Camisa Elegante</h3>
+
+                        <p class="preco-antigo">R$ 129,90</p>
+
+                        <p class="preco">R$ 109,90</p>
+
+                        <button
+                            type="button"
+                            class="btn-adicionar">
+                            Adicionar à sacola
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <div class="ver-mais">
+
+                <a href="descontos.html" class="botao-principal">
+                    Ver todos os descontos
+                </a>
+
+            </div>
+
+        </section>
+         
+<!-- SOBRE A LOJA -->
+<section class="sobre" id="sobre">
+
+    <div class="container sobre-conteudo">
+
+        <div class="sobre-cabecalho">
+
+            <span class="sobre-subtitulo">
+                UM POUCO SOBRE NÓS
+            </span>
+
+            <h2>Sobre o Closet da Luh</h2>
+
+            <span class="sobre-detalhe"></span>
+
+            <p class="sobre-descricao">
+                Mais do que uma loja, um espaço dedicado à moda,
+                à personalidade e à liberdade de expressar seu próprio estilo.
+            </p>
+
+        </div>
+
+        <div class="sobre-destaque">
+
+            <p>
+                No Closet da Luh, acreditamos que cada detalhe faz a diferença.
+                Nossa proposta é oferecer uma experiência de compra especial,
+                com peças e acessórios escolhidos para acompanhar diferentes
+                estilos e momentos.
+            </p>
+
+        </div>
+
+        <div class="sobre-cards">
+
+            <div class="sobre-card">
+                <span class="sobre-icone">✧</span>
+                <h3>Estilo</h3>
+                <p>
+                    Peças que valorizam sua personalidade e permitem
+                    que você expresse quem é.
+                </p>
+            </div>
+
+            <div class="sobre-card">
+                <span class="sobre-icone">♡</span>
+                <h3>Carinho em cada detalhe</h3>
+                <p>
+                    Atenção e cuidado em cada escolha para proporcionar
+                    uma experiência especial.
+                </p>
+            </div>
+
+            <div class="sobre-card">
+                <span class="sobre-icone">✿</span>
+                <h3>Experiência</h3>
+                <p>
+                    Queremos tornar cada visita à nossa loja
+                    agradável, prática e especial.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="sobre-assinatura">
+            <span>Com carinho,</span>
+            <strong>Closet da Luh</strong>
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- CONTATO -->
+        <section class="contato container" id="contato">
+
+            <div class="titulo-secao">
+
+                <span>FALE COM A GENTE</span>
+
+                <h2>Entre em contato</h2>
+
+                <p>
+                    Estamos prontas para atender você!
+                </p>
+
+            </div>
+
+
+            <div class="contato-links">
+
+                <a
+                    href="https://www.instagram.com/clo_setdaluh/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    Instagram
+
+                </a>
+
+
+                <a
+                    href="https://wa.me/5521987918797"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    WhatsApp
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <a href="index.html" class="logo">
+            Closet <span>da Luh</span>
+        </a>
+
+        <p>
+            Moda, estilo e personalidade.
+        </p>
+
+        <p>
+            Proprietária: Lana Beatriz
+        </p>
+
+        <p class="copyright">
+
+            © <span id="ano"></span>
+            Closet da Luh. Todos os direitos reservados.
+
+        </p>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
